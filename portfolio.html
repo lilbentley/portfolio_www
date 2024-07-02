@@ -302,16 +302,16 @@
         <button class="close fixed top-4 right-20 w-10 h-10 flex items-center justify-center bg-white bg-opacity-30 text-2xl font-bold text-white rounded-full hover:bg-opacity-50 transition duration-300 z-50">
             &times;
         </button>
-        <img id="modalImage" src="" alt="" class="w-full h-auto max-h-[80vh] object-contain mt-4">
+        <img id="modalImage" src="" alt="" class="w-full h-auto max-h-[calc(80vh)] object-contain mt-4">
         <div id="modalCaption" class="mt-4 text-lg text-gray-200 p-4 text-center"></div>
     </div>
 </div>
 
 <!-- Previous and Next buttons fixed to the window and spanning the full height -->
-<button id="prevBtn" class="fixed inset-y-0 left-0 w-20 flex items-center justify-center z-50 transition-opacity duration-300 text-2xl font-bold text-white bg-opacity-0 hover:bg-white hover:bg-opacity-30">
+<button id="prevBtn" class="fixed inset-y-0 left-0 bg-white bg-opacity-30 text-2xl font-bold text-white hover:bg-opacity-50 transition duration-300 w-20 flex items-center justify-center z-50 hidden">
     &lt;
 </button>
-<button id="nextBtn" class="fixed inset-y-0 right-0 w-20 flex items-center justify-center z-50 transition-opacity duration-300 text-2xl font-bold text-white bg-opacity-0 hover:bg-white hover:bg-opacity-30">
+<button id="nextBtn" class="fixed inset-y-0 right-0 bg-white bg-opacity-30 text-2xl font-bold text-white hover:bg-opacity-50 transition duration-300 w-20 flex items-center justify-center z-50 hidden">
     &gt;
 </button>
 
@@ -376,8 +376,6 @@
         });
     });
 </script>
-
-
 
 
 
