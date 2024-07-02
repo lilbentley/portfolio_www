@@ -12,7 +12,7 @@ body {
     overflow-y: hidden;
 }
 header {
-    background: rgba(51, 51, 51, 0.8);
+    background: rgba(51, 51, 51, 1);
     color: #fff;
     padding: 20px 20px;
     position: fixed;
