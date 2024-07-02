@@ -128,6 +128,18 @@ width: 127px;
     filter: brightness(1) contrast(0.8) sepia(0.1);
     
 }
+
+
+.scrollable-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+
 .lg-outer .lg-object {
     max-height: 80%!important;
     overflow-y: scroll;
